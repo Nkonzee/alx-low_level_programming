@@ -1,19 +1,13 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * main- Entry point of a programm, prints _putchar
+ * main - Entry point of a programm, prints _putchar
  *
- * Return : Always return 0 if not argurement pass to it
+ * Return: Always return 0 if not argurement pass to it
  */
 
 int main(void)
 {
-	char cout[9] = "_putchar";
+	printf("_putchar\n");
 
-	int k = 0;
-	for (k = 0; k < 9; k++)
-	{
-		_putchar(cout[k]);
-	}
-	_putchar(10);
 	return (0);
 }
