@@ -4,7 +4,7 @@
  * @argv: argument holding place
  * @argc: argument count
  *
- * Return: on success 1.
+ * Return: Return 0.
  */
 int main(int argc, char *argv[])
 {
