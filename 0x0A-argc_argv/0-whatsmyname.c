@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
  * main- Entry point
  * @argv: argument holding place
@@ -6,6 +7,7 @@
  *
  * Return: Return 0.
  */
+
 int main(int argc, char *argv[])
 {
 	(void)argc;
